@@ -1,7 +1,8 @@
 import { Auth } from '@supabase/auth-ui-react'
 import { ThemeSupa } from '@supabase/auth-ui-shared'
 import { supabase } from '../utils/supabaseClient'
-import '../css/auth.css'
+import '../css/style.css'
+import '../css/Auth.css'
 
 const AuthComponent = () => {
   return (

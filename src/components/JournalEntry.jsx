@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../utils/supabaseClient'
-import '../css/journal-entry.css'
+import '../css/style.css'
+import '../css/JournalEntry.css'
 
 const JournalEntry = () => {
   const [title, setTitle] = useState('')

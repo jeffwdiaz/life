@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { supabase } from '../utils/supabaseClient'
-import '../css/home.css'
+import EntryCard from './EntryCard'
+import '../css/style.css'
+import '../css/Home.css'
+import '../css/NavButtons.css'
 
 const Home = () => {
   const [entries, setEntries] = useState([])
@@ -58,25 +61,7 @@ const Home = () => {
           </div>
         ) : (
           entries.map((entry) => (
-            <div key={entry.id} className="entry-card">
-              <div className="entry-header">
-                <h2>{entry.title || 'Untitled Entry'}</h2>
-                <span className="entry-date">{formatDate(entry.created_at)}</span>
-              </div>
-              {entry.mood && (
-                <div className="entry-mood">
-                  Mood: <span className="mood-tag">{entry.mood}</span>
-                </div>
-              )}
-              <p className="entry-preview">
-                {entry.content.length > 150
-                  ? `${entry.content.substring(0, 150)}...`
-                  : entry.content}
-              </p>
-              <Link to={`/entry/${entry.id}`} className="read-more">
-                Read More
-              </Link>
-            </div>
+            <EntryCard key={entry.id} entry={entry} />
           ))
         )}
       </div>

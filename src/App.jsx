@@ -4,7 +4,10 @@ import { supabase } from './utils/supabaseClient'
 import AuthComponent from './components/Auth'
 import Home from './components/Home'
 import JournalEntry from './components/JournalEntry'
-import './css/components.css'
+import './css/style.css'
+import './css/body.css'
+import './css/colors.css'
+import './css/fonts.css'
 
 function App() {
   const [session, setSession] = useState(null)
@@ -25,12 +28,9 @@ function App() {
     return () => subscription.unsubscribe()
   }, [])
 
-  // ===============================
-  // DEV MODE: Login is bypassed! Remove/comment this block for production.
-  // ===============================
-  // if (!session) {
-  //   return <AuthComponent />
-  // }
+  if (!session) {
+    return <AuthComponent />
+  }
 
   return (
     <Router>
