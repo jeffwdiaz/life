@@ -1,0 +1,60 @@
+/* =============================== */
+/* Base Body & Global Styles       */
+/* =============================== */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add more global resets or base styles here as needed */
+
+/* =============================== */
+/* App Container (Top Level)       */
+/* =============================== */
+
+.app-container {
+    font-family: inherit;
+    background-color: inherit;
+  }
+
+.app-nav {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+/* =============================== */
+/* Input Box Styles (Global)       */
+/* =============================== */
+
+input {
+  padding: 0rem 0rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: inherit;
+  color: inherit;
+  outline: none;
+  border: none;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
+} 

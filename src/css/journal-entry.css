@@ -1,0 +1,68 @@
+/* =============================== */
+/* Journal Entry Styles           */
+/* =============================== */
+
+.journal-entry {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.journal-entry form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.journal-entry form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.journal-entry label {
+  font-weight: 500;
+}
+
+.journal-entry input,
+.journal-entry select {
+  border: inherit;
+  border-radius: inherit;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.journal-entry textarea {
+  border: inherit;
+  border-radius: inherit;
+  min-height: 200px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.journal-entry button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.journal-entry button:hover {
+}
+
+.success {
+  background-color: #e8f5e9;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.error {
+  background-color: #ffebee;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+} 

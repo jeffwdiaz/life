@@ -1,0 +1,14 @@
+/* =============================== */
+/* Color Variables                 */
+/* =============================== */
+
+:root {
+    --color-light: #f8f4e3;
+    --color-dark: #363946;
+    --color-accent: #f45b69;
+}
+
+:root {
+    --color-bg: var(--color-dark);
+    --color-text: var(--color-light);
+}

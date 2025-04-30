@@ -1,0 +1,13 @@
+# .gitignore
+
+# Cursor tool configuration and rules
+.cursor/**
+
+# Archived or legacy files
+archive/**
+
+# Environment variables
+.env
+
+# Database files (SQLite)
+database/*.sqlite
