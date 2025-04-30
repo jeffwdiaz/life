@@ -11,3 +11,5 @@ archive/**
 
 # Database files (SQLite)
 database/*.sqlite
+
+node_modules/**
