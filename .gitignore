@@ -1,6 +1,7 @@
 # .gitignore
 
 # Cursor tool configuration and rules
+.cursor
 .cursor/**
 
 # Archived or legacy files
