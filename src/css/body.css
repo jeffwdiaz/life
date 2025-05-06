@@ -11,8 +11,6 @@ html, body {
 
 body {
   font-family: var(--font-main);
-  background-color: var(--color-light);
-  color: var(--color-dark);
   min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -27,12 +25,10 @@ body {
 
 .app-container {
     font-family: inherit;
-    background-color: inherit;
-  }
+}
 
 .app-nav {
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
 }
 
 /* =============================== */
@@ -43,11 +39,8 @@ input {
   padding: 0rem 0rem;
   font-size: 1rem;
   font-family: inherit;
-  background-color: inherit;
-  color: inherit;
   outline: none;
   border: none;
-
 }
 
 input:focus {
@@ -57,4 +50,11 @@ input:focus {
 input::placeholder {
   color: #aaa;
   font-style: italic;
-} 
+}
+
+/* Example: Styling a navigation bar */
+nav {
+  padding: 1rem 0;
+}
+
+/* Example: Styling links within the nav */ 

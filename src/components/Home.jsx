@@ -4,7 +4,6 @@ import { supabase } from '../utils/supabaseClient'
 import EntryCard from './EntryCard'
 import '../css/style.css'
 import '../css/Home.css'
-import '../css/NavButtons.css'
 
 const Home = () => {
   const [entries, setEntries] = useState([])
@@ -47,7 +46,7 @@ const Home = () => {
   return (
     <div className="home">
       <header className="home-header">
-        <h1>My Journal</h1>
+        <h1>Thoughts</h1>
         <Link to="/new-entry" className="new-entry-button">
           New Entry
         </Link>

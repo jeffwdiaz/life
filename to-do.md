@@ -1,18 +1,19 @@
 # To-Do Checklist
 
-- [x] Define project overview and goal in README.md
-- [x] Specify tech stack in README.md
-- [x] Set up src/ folder for source code
-- [x] Set up archive/ folder for legacy files
-- [x] Create .env for environment variables
-- [x] Configure .gitignore
-- [x] Update changelog.md after significant changes
-- [x] Create src/components/ for React components
-- [x] Create src/pages/ for route-level React components
-- [x] Create src/hooks/ for custom React hooks
-- [x] Create src/utils/ for utility/helper functions
-- [x] Review and update documentation (README.md, changelog.md, to-do.md, .gitignore) as per rules
-- [x] Move component-specific styles to their own CSS files in src/css
-- [x] Add body.css for global styles and resets
-- [x] Update color and font variables in colors.css and fonts.css
-- [x] Ensure all components import their CSS from the correct path 
+- [x] Basic Project Setup (Folders, README, Gitignore, Base CSS)
+- [x] Implement User Authentication (using Supabase)
+- [x] Create `Home` component to display journal entry cards.
+- [x] Create `EntryCard` component for summarizing entries.
+- [x] Implement fetching journal entries from Supabase for Home view.
+- [x] Create `JournalEntry` component for creating/editing entries.
+- [x] Implement saving new entries to Supabase.
+- [x] Set up React Router for navigation (`/`, `/new-entry`, `/entry/:id`).
+- [x] Implement fetching existing entry data for editing.
+- [x] Implement updating existing entries in Supabase.
+- [x] Implement deleting entries from Supabase (with confirmation).
+- [x] Add navigation buttons (New Entry, Back to Home, Sign Out).
+- [x] Refactor CSS (Consolidate global styles, ensure component-specific styles).
+- [ ] Style the application thoroughly for better UI/UX.
+- [ ] Add Mood Selector functionality (saving/displaying mood).
+- [ ] Add Search/Filter functionality for entries.
+- [ ] Deploy the application. 

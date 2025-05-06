@@ -6,9 +6,9 @@ import '../css/EntryCard.css'
 const EntryCard = ({ entry }) => {
   const formatDate = (dateString) => {
     return new Date(dateString).toLocaleDateString('en-US', {
-      weekday: 'long',
+      weekday: 'short',
       year: 'numeric',
-      month: 'long',
+      month: 'numeric',
       day: 'numeric',
     })
   }

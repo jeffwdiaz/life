@@ -4,6 +4,7 @@ import { supabase } from './utils/supabaseClient'
 import AuthComponent from './components/Auth'
 import Home from './components/Home'
 import JournalEntry from './components/JournalEntry'
+// import FullEntryView from './components/FullEntryView' // No longer needed
 import './css/style.css'
 import './css/body.css'
 import './css/colors.css'
@@ -47,6 +48,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/new-entry" element={<JournalEntry />} />
+          <Route path="/entry/:id" element={<JournalEntry />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>

@@ -21,8 +21,6 @@
 }
 
 .auth-button {
-  background-color: var(--color-light);
-  color: white;
   padding: 0.75rem;
   border: none;
   cursor: pointer;
@@ -30,5 +28,5 @@
 }
 
 .auth-button:hover {
-  background-color: var(--color-dark);
+  /* background-color: var(--color-dark); */
 } 

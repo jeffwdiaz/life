@@ -3,15 +3,9 @@
 /* =============================== */
 
 .entry-card {
-  background: white;
-  border-radius: 0;
   padding: 20px;
   margin-bottom: 20px;
   transition: transform 0.2s ease;
-}
-
-.entry-card:hover {
-  transform: translateY(-2px);
 }
 
 .entry-header {
@@ -24,11 +18,9 @@
 .entry-header h2 {
   margin: 0;
   font-size: 1.5rem;
-  color: #333;
 }
 
 .entry-date {
-  color: #666;
   font-size: 0.9rem;
 }
 
@@ -37,8 +29,6 @@
 }
 
 .mood-tag {
-  background: #ff6b6b;
-  color: white;
   padding: 4px 12px;
   border-radius: 0;
   font-size: 0.9rem;
@@ -46,20 +36,16 @@
 }
 
 .entry-preview {
-  color: #555;
   line-height: 1.6;
   margin-bottom: 16px;
 }
 
 .read-more {
   display: inline-block;
-  color: #4a90e2;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .read-more:hover {
-  color: #357abd;
-  text-decoration: underline;
 } 

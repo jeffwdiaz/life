@@ -14,3 +14,11 @@
     --font-serif: 'EB Garamond', 'Times New Roman', Times, serif;
     --font-mono: 'Fira Mono', 'Consolas', monospace;
 }
+
+body h1 {
+    font-family: var(--font-sans-serif);
+}
+
+body h2 {
+    font-family: var(--font-sans-serif);
+}
