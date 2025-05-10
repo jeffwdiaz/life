@@ -1,0 +1,70 @@
+/* =============================== */
+/* Theme & Typography Variables    */
+/* =============================== */
+  
+a {
+    color: var(--color-dark);
+    text-decoration: inherit;
+}
+a:hover {
+    color: var(--color-dark);
+}
+  
+body {
+    margin: 0;
+    display: flex;
+    place-items: column;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: var(--font-sans-serif);
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 0 10px 0;
+    margin: 0;
+    line-height: 1;
+}
+  
+.card {
+    padding: 2em;
+}
+  
+#app {
+    max-width: 1280px;
+    margin: 0 0;
+    padding: 50px;
+}
+  
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+  
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
+}

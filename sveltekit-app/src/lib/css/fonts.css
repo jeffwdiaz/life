@@ -9,16 +9,18 @@
 /* =============================== */
 
 :root {
-    --font-main: 'Lexend', 'Segoe UI', Arial, sans-serif;
+    font-family: var(--font-sans-serif);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
     --font-sans-serif: 'Lexend', 'Segoe UI', Arial, sans-serif;
     --font-serif: 'EB Garamond', 'Times New Roman', Times, serif;
     --font-mono: 'Fira Mono', 'Consolas', monospace;
-}
-
-body h1 {
-    font-family: var(--font-sans-serif);
-}
-
-body h2 {
-    font-family: var(--font-sans-serif);
 }

@@ -22,19 +22,3 @@ To provide a personal site for journaling and mood tracking.
 HTML
 CSS
 React
-
-# Folder Structure
-
-- .cursor/    # Cursor configuration and rules
-- src/        # Source code
-    - components/ # Reusable React components
-    - pages/      # Route-level React components
-    - hooks/      # Custom React hooks
-    - utils/      # Utility/helper functions
-    - css/        # CSS stylesheets (component and global styles)
-- archive/    # Archived or legacy files
-- README.md   # Project documentation
-- changelog.md# Change log
-- to-do.md    # To-do checklist
-- .env        # Environment variables
-- .gitignore  # Git ignore rules 
