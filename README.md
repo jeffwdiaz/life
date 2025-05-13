@@ -8,17 +8,17 @@
 
 # Project Overview
 
-This is my "Life" site. I will have a few different things here.
+This is my "Life" site. It is a personal web application for journaling and mood tracking, built with SvelteKit.
 - Journal Entries
-    - Daily Journal entries
+    - Daily journal entries
     - Mood selector
 
 # Project Goal
 
-To provide a personal site for journaling and mood tracking.
+To provide a personal site for journaling and mood tracking, with a focus on privacy and ease of use.
 
 # Tech Stack
 
-HTML
-CSS
-React
+- SvelteKit
+- HTML
+- CSS

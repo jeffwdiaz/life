@@ -1,16 +1,20 @@
 # .gitignore
 
-# Cursor tool configuration and rules
-.cursor
-.cursor/**
+# Cursor tool folders (project-specific)
+**/.cursor/**
 
-# Archived or legacy files
-archive/**
+# Archived or legacy files (project-specific)
+**/archive/**
 
-# Environment variables
-.env
+# Environment variables (project-specific)
+**/.env
 
-# Database files (SQLite)
-database/*.sqlite
+# Dependencies
+**/node_modules/**
 
-node_modules/**
+# SvelteKit cache
+**/sveltekit-cache/**
+
+# SvelteKit build
+**/sveltekit-build/**
+
