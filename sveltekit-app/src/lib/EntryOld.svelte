@@ -55,13 +55,13 @@ onMount(() => {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 2rem;
+    font-size: inherit;
   }
   .entry-old textarea {
     width: 100%;
     box-sizing: border-box;
     margin-top: 25px;
-    font-size: 2rem;
+    font-size: inherit;
     font-family: inherit;
     font-weight: 700;
     padding: 0rem;
