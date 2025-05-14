@@ -82,12 +82,13 @@ const todayStr = `${pad(today.getMonth() + 1)}/${pad(today.getDate())}/${today.g
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--color-light);
-    background-color: var(--color-accent);
+    background-color: var(--color-dark);
     border: none;
     cursor: pointer;
     transition: background 0.2s;
+    border-radius: 0px;
   }
   .submit-btn:hover {
-    background-color: var(--color-accent2);
+    background-color: var(--color-accent);
   }
 </style> 
